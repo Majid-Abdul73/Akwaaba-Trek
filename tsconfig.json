@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "jsx": "react-native",
+    "lib": [
+      "ES2015",
+      "DOM"
+    ],
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "types": [
+      "react-native"
+    ]
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json"
+}

@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "AKWAABA TREK",
+    "slug": "akwaaba-trek",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2D5A27"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.akwaabatrek.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2D5A27"
+      },
+      "package": "com.akwaabatrek.app"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow AKWAABA TREK to use your location."
+        }
+      ]
+    ],
+    "newArchEnabled": true
+  }
+}
